@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
 	int i=0;
 	float x0, x1, f0, f1, df0;
-	
+	puts("\n\t*** Root approximation by Newton Raphson ***\n");
 	printf("x0: ");
 	scanf("%f", &x0);
 	printf("n\txn\t\tf(x_n)\t\tdf(x_n)\t\t(xn+1)\n\n");
