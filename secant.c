@@ -9,7 +9,8 @@ int main(int argc, char* argv[]){
   double x, fx;
   int n=0;
 
-  printf("Enter x0 and x1: ");
+  printf("\n\t*** Root Approximation by Secant Method ***\n\n");
+  printf("Enter initial values, x0 and x1: ");
   scanf("%lf %lf", &x0, &x1);
 
   printf("n \t x \t\tf(x0) \t\t x1\t\tf(x1) \t\t x\t\t f(x)\n");
