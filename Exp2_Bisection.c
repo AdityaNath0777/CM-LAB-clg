@@ -9,7 +9,15 @@ int main(){
 float a=11;
 float b=12;
 float x0, fx, fa, fb;
-int n=0;
+// n is for number of iterations
+int n=0; 
+
+printf("\n\t*** Root Approximation by Bisection Method ***\n\n");
+printf("Enter 1st initial value: ");
+scanf("%f", &a);
+printf("Enter 2nd initial value: ");
+scanf("%f", &b);
+
 printf("\n n\t\ta\t\tb\t\tx0\t\tf(x0)\n");
 
 while(fabs(b-a)>=e){
@@ -24,7 +32,7 @@ printf("%d\t%f\t%f\t%f\t%f\n", n, a, b, x0, fx);
     else if(fx*fb<0)
            a=x0;
     // else if(fx*f(b)<0)
-    ++n;        
+    ++n;
 }
 return 0;
 }

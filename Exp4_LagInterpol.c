@@ -18,6 +18,7 @@ int main()
 
     // clrscr();
 
+    printf("\n\t*** Lagrange's Interpolation ***\n\n");
     printf("Number of Data points to be feeded(<20): ");
     scanf("%d", &n);
 
